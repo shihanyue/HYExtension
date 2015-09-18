@@ -14,6 +14,8 @@
 		E97009F31BAB140500916975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97009F21BAB140500916975 /* Images.xcassets */; };
 		E97009F61BAB140500916975 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97009F41BAB140500916975 /* LaunchScreen.xib */; };
 		E9700A021BAB140500916975 /* WEIXINTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9700A011BAB140500916975 /* WEIXINTests.m */; };
+		E9811B401BAB9E5E002DF4B0 /* HYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9811B3F1BAB9E5E002DF4B0 /* HYTest.m */; };
+		E9811B431BAB9F54002DF4B0 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9811B421BAB9F54002DF4B0 /* MyAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E97009FB1BAB140500916975 /* WEIXINTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEIXINTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9700A001BAB140500916975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9700A011BAB140500916975 /* WEIXINTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEIXINTests.m; sourceTree = "<group>"; };
+		E9811B3E1BAB9E5E002DF4B0 /* HYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTest.h; sourceTree = "<group>"; };
+		E9811B3F1BAB9E5E002DF4B0 /* HYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTest.m; sourceTree = "<group>"; };
+		E9811B411BAB9F54002DF4B0 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		E9811B421BAB9F54002DF4B0 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +87,13 @@
 		E97009E41BAB140400916975 /* WEIXIN */ = {
 			isa = PBXGroup;
 			children = (
+				E9811B411BAB9F54002DF4B0 /* MyAnnotation.h */,
+				E9811B421BAB9F54002DF4B0 /* MyAnnotation.m */,
 				E97009E91BAB140400916975 /* AppDelegate.h */,
 				E97009EA1BAB140400916975 /* AppDelegate.m */,
 				E97009EC1BAB140500916975 /* ViewController.h */,
+				E9811B3E1BAB9E5E002DF4B0 /* HYTest.h */,
+				E9811B3F1BAB9E5E002DF4B0 /* HYTest.m */,
 				E97009ED1BAB140500916975 /* ViewController.m */,
 				E97009EF1BAB140500916975 /* Main.storyboard */,
 				E97009F21BAB140500916975 /* Images.xcassets */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9811B401BAB9E5E002DF4B0 /* HYTest.m in Sources */,
+				E9811B431BAB9F54002DF4B0 /* MyAnnotation.m in Sources */,
 				E97009EE1BAB140500916975 /* ViewController.m in Sources */,
 				E97009EB1BAB140400916975 /* AppDelegate.m in Sources */,
 				E97009E81BAB140400916975 /* main.m in Sources */,
@@ -416,6 +428,7 @@
 				E9700A071BAB140500916975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9700A081BAB140500916975 /* Build configuration list for PBXNativeTarget "WEIXINTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				E9700A0A1BAB140500916975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
